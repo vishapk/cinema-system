@@ -7,7 +7,7 @@ import io.kotest.matchers.shouldBe
 
 class AdminRepositoryTest() : BaseIntegrationSpec() {
     init {
-        "should return admin details if username is present in the database" {
+        "should return admin details if username is present in the database //commit test" {
             val adminInfo = AdminRepository(dataSource).findAdmin("admin")
 
             adminInfo.id shouldBe 1
