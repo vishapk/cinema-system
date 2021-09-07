@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+    <include file="changelog/0.0.1-init.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/0.0.2-insert-movies.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/0.0.3-add-duration-row-to-movies-table.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/0.0.4-create-show-table.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/0.0.5-admin-table.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/0.0.6-insert-admin-credentials.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/0.0.7-update-admin-credentials.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/0.0.8-alter-show-table.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/0.0.9-add-price-column-in-show-table.sql" relativeToChangelogFile="true"/>
+
+</databaseChangeLog>

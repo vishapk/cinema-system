@@ -1,0 +1,1 @@
+SELECT * from shows where id=:showId;
