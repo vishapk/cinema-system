@@ -15,7 +15,7 @@ import io.micronaut.http.client.exceptions.HttpClientResponseException
 class MovieApiTest() : BaseIntegrationSpec() {
 
     init {
-        "should save movie" {
+        "should save movie successfully" {
             // Given
             val avengersMovie = newMovieRequest("Avengers", 80)
             val ddlj2 = newMovieRequest("ddlj2", 120)
