@@ -14,7 +14,7 @@ class AdminRepositoryTest() : BaseIntegrationSpec() {
             adminInfo.username shouldBe "admin"
         }
 
-        "should return error if username is not present in the database" {
+        "should return error if username is not present in the database//commit test" {
             val exception = shouldThrow<UsernameNotFoundException> {
                 AdminRepository(dataSource).findAdmin("notPresent")
             }
